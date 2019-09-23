@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a46c592e-d34d-4465-bb8d-200e8e522112" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leecode494.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode142.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode347.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode72.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/_01Knapsack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/leetcode416.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +41,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/leetcode72.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+            <state relative-caret-position="74">
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="78" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/leetcode416.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/_01Knapsack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -72,6 +87,8 @@
         <option value="$PROJECT_DIR$/leetcode/leetcode142.py" />
         <option value="$PROJECT_DIR$/leetcode/leecode494.py" />
         <option value="$PROJECT_DIR$/leetcode/leetcode72.py" />
+        <option value="$PROJECT_DIR$/leetcode/leetcode416.py" />
+        <option value="$PROJECT_DIR$/leetcode/_01Knapsack.py" />
       </list>
     </option>
   </component>
@@ -137,7 +154,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.leetcode72">
+  <component name="RunManager" selected="Python._01Knapsack">
+    <configuration name="_01Knapsack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/_01Knapsack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="leetcode347" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,6 +186,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/leetcode347.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="leetcode416" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/leetcode416.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.leetcode72" />
-        <item itemvalue="Python.leetcode72" />
-        <item itemvalue="Python.leetcode72" />
-        <item itemvalue="Python.leetcode72" />
-        <item itemvalue="Python.leetcode72" />
+        <item itemvalue="Python._01Knapsack" />
+        <item itemvalue="Python._01Knapsack" />
+        <item itemvalue="Python.leetcode416" />
+        <item itemvalue="Python.leetcode416" />
+        <item itemvalue="Python.leetcode416" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +270,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.04249292" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.44050992" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -247,8 +300,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/leetcode72.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+        <state relative-caret-position="74">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="78" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/leetcode416.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/_01Knapsack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
