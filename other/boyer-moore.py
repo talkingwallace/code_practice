@@ -1,0 +1,4 @@
+"""
+Faster than KMP
+"""
+
