@@ -50,4 +50,28 @@ class Solution:
 
         return max
 
-print(Solution().largestRectangleArea([1,4,4,1]))
+    # Stack Solution
+    # def largestRectangleArea_(self, heights):
+    #     if len(heights) == 0:
+    #         return 0
+    #
+    #     max_area = 0
+    #     stack = []
+    #     for idx,num in enumerate(heights):
+    #         if idx == 0:
+    #             stack.append(idx)
+    #             continue
+    #         while num < stack[-1]:
+    #             h = heights[stack.pop()]
+    #             l = -1 if len(stack) == 0 else stack[-1]
+    #             r = idx
+    #             area = (r-l-1)*h
+    #             if area > max_area:
+    #                 max_area = area
+    #
+    #         stack.append(idx)
+    #
+    #     return max_area
+
+
+print(Solution().largestRectangleArea_([2,1,5,6,2,3]))
